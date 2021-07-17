@@ -11,40 +11,49 @@
     <div class="wrapper">
         <div class="header">
             <nav>
-                <div class="logo-toggle">
-                    <div class="logo">
-                        <h2>Blogr</h2>
-                    </div>
-                    <div class="navtoggle">
-                        <button>
-                            <span class="hamburger">
-                                <img src="./images/icon-hamburger.svg" alt="">
-                            </span>
-                            <span class="close">
-                                <img src="./images/icon-close.svg" alt="">
-                            </span>
-                        </button>
+                     <div class="logo-toggle">
+                        <div class="logo">
+                            <h2>Blogr</h2>
+                        </div>
+                        <div class="navtoggle">
+                            <button class="toggle-btn">
+                                <span class="hamburger">
+                                    <img src="./images/icon-hamburger.svg" alt="">
+                                </span>
+                                <span class="close">
+                                    <img src="./images/icon-close.svg" alt="">
+                                </span>
+                            </button>
+                        </div>
                     </div>
                     
                     <div class="nav-links">
                         <div class="nav-link">
                             <ul>
-                                <li><a href="">Product</a></li>
-                                <li><a href="">company</a></li>
-                                <li><a href="">connect</a></li>
+                                <li>
+                                    <a href="">Product</a>
+                                    <span class="dropdown"><img src="./images/icon-arrow-light.svg" alt=""></span>
+                                </li>
+                                <li>
+                                    <a href="">company</a>
+                                    <span class="dropdown"><img src="./images/icon-arrow-light.svg" alt=""></span>
+                                </li>
+                                <li>
+                                    <a href="">connect</a>
+                                    <span class="dropdown"><img src="./images/icon-arrow-light.svg" alt=""></span>
+                                </li>
                             </ul>
                         </div>
-                        <div class="nav-button">
-                            <button class="login-btn" type="button">
+                        <div class="nav-button btns">
+                            <button class="login-btn login-dsk" type="button">
                                 login
                             </button>
-                            <button class="sign-up-btn" type="button">
+                            <button class="sign-up-btn sign-up-dsk" type="button">
                                 Sign up
                             </button>
                         </div>
                     </div>
-                    </div>
-                </nav>
+            </nav>
             
             <div class="header-body">
                 <h1>A modern publishing platform</h1>
@@ -90,7 +99,7 @@
         </section>
 
         <section class="laptop">
-            <div class="laptop">
+            <div class="laptop-img">
                 <img src="./images/illustration-laptop-mobile.svg" alt="">
             </div>
             <div class="laptop-text">
@@ -105,7 +114,7 @@
             <div>
                 <h2>Blogr</h2>
             </div>
-            <div class="pproduct">
+            <div class="product">
                 <h3 class="product-title">
                     Product
                 </h3>
@@ -117,7 +126,7 @@
             </div>
             <div class="company">
                 <h3 class="company-title">
-                    Product
+                    Company
                 </h3>
                 <p><a href="">About</a></p>
                 <p><a href="">Team</a></p>
@@ -126,7 +135,7 @@
             </div>
             <div class="connect">
                 <h3 class="connect-title">
-                    Product
+                Connect
                 </h3>
                 <p><a href="">Contact</a></p>
                 <p><a href="">Newsletter</a></p>
@@ -134,5 +143,7 @@
             </div>
         </footer>
     </div>
+    <script src="./app.js">
+    </script>
 </body>
 </html>
